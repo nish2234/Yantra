@@ -2,6 +2,7 @@ import './App.css';
 import Landing from'./component/LandingPage.js';
 import Form from'./component/Forms.js';
 import Navbar from './component/Navbar.js';
+import TokenDataFetcher from './component/fetch.js';
 
 function App() {
   //navbar
@@ -12,7 +13,7 @@ function App() {
      <Navbar/>
      <Landing/>
      <Form/>
-
+    <TokenDataFetcher/>
     </>
   );
 }
