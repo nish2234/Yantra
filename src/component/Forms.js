@@ -97,6 +97,7 @@ function Forms() {
             <li>Connected wallet - {connectedWallet}</li>
             <li>Balance - {urBalance}</li>
           </div>
+          <br/>
           <button type="text" onClick={fetchTokenData} class="submit">Refresh</button>
         </div>
 
