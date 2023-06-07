@@ -35,7 +35,7 @@ const TokenDataFetcher = () => {
       }
 
       // Convert the amount to a BigNumber
-      const amount = ethers.utils.parseUnits(amountToSend);
+      const amount = ethers.utils.parseUnits(amountToSend); 
 
       // Call the transfer function to send the token to the recipient address
       const tx = await tokenContract.transfer(recipientAddress, amount);
