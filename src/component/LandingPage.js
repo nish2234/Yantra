@@ -5,7 +5,7 @@ import ieee from './IEEE.png'
 function LandingPage() {
   return (
     <>
-    <div className="land">
+     <div className="land">
      
         <div className="logo">
          

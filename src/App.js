@@ -7,13 +7,13 @@ import TokenDataFetcher from './component/fetch.js';
 function App() {
   //navbar
   //landing page
-  //form page
+  //form page <TokenDataFetcher/>
   return (
     <>
      <Navbar/>
      <Landing/>
      <Form/>
-    <TokenDataFetcher/>
+    
     </>
   );
 }
